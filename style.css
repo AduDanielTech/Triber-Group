@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --footer-header-text-size:20px;
+    --footer-details-text-size:17px;
+    --footer-header-text-color:white;
+    --footer-text-color:white;
+    --footer-bg-color:#252525;
+    --footer-link-size:16px;
+    --footer-slogan-size:24px;
+    --footer-copyrights-size:16px;
+    --footer-icon-size:15px;
+    --footer-font--family--:'Poppins', sans-serif;
+}
+
+
+
+footer{
+  /* THOMAS  */
+position: absolute;
+/* display: grid; */
+
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, auto)); */
+
+  gap: 4rem;
+ 
+  
+  left: 0;
+  right: 0;
+  bottom: 0;
+ /* THOMAS  */
+    background-color: var(--footer-bg-color);
+    font-family: var(--footer-font--family--);
+    color: var(--footer-text-color);
+    
+}
+footer a{
+    text-decoration: none;    
+    color: var(--footer-text-color);
+}
+
+.footer_div{
+    padding: 1rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.inner{
+    display: flex;
+}
+.links{
+    gap: 1rem;
+}
+.links a{
+    font-size: var(--footer-link-size);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.socials{
+    gap:1rem;
+    
+}
+.footer_details{
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 20%;
+}
+.footer_details_header{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: var(--footer-header-text-size);
+}
+.footer_details_text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.slogan{
+    font-size: var(--footer-slogan-size);
+    flex-direction: column;
+    font-weight: bold;
+}
+.inner p{
+    font-weight: bold;
+    font-size: var(--footer-copyrights-size);
+}
+.footer_svg{
+    width: var(--footer-icon-size);
+}
