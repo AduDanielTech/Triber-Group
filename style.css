@@ -473,6 +473,15 @@ padding: 18px 44px;
 .services_div #img2{
     /* margin: -50px 0 0 -75px; */
 }
+.services_div #second .text-div{
+    margin-left: 3rem;
+}
+.services_div #forth .text-div{
+    margin-left: 3rem;
+}
+.services_div #forth .text-div p{
+    margin-top: 1rem;
+}
 .services_div #img4{
     margin: -150px 0 0 0;
 }
@@ -495,6 +504,7 @@ font-style: normal;
 font-weight: 800;
 line-height:  89.6px;
 letter-spacing: -2.56px;
+margin-bottom: 2rem;
 }
 .services_div .container p{
 color: #000;
